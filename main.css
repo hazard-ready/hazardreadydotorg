@@ -1,0 +1,70 @@
+html {
+  width:auto !important;
+  height:auto !important;
+}
+
+body {
+  height:auto !important;
+  width:auto !important;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.6875rem;
+  line-height: 1.75rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.4375rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+.caps {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title-header {
+  padding: 5px;
+  background-color: #feb24c;
+  text-align: center;
+}
+
+.information {
+  padding: 1rem;
+  background-color: #44444e;
+  color: #fff;
+}
+
+.locations {
+  padding: 1rem;
+}
+
+.geek-box {
+  background-color: #44444e;
+  color: #fff;
+}
+
+.geek-box h3 {
+  color: #fff;
+}
+
+.geek-box a, .geek-box a:hover .geek-box a:visited {
+  color: #ffffb2
+}
