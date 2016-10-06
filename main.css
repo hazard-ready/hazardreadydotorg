@@ -42,13 +42,13 @@ h5 {
 
 .title-header {
   padding: 5px;
-  background-color: #ffffb2;
+  background-color: #c2c2c2;
   text-align: center;
 }
 
 .information {
   padding: 1rem;
-  background-color: #44444e;
+  background-color: #666;
   color: #fff;
 }
 
@@ -57,7 +57,7 @@ h5 {
 }
 
 .geek-box {
-  background-color: #44444e;
+  background-color: #666;
   color: #fff;
 }
 
