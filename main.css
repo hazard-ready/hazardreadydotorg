@@ -40,6 +40,10 @@ h5 {
   font-weight: bold;
 }
 
+.top-header {
+  max-width: none;
+}
+
 .title-header {
   padding: 5px;
   background-color: #c2c2c2;
@@ -50,6 +54,11 @@ h5 {
   padding: 1rem;
   background-color: #666;
   color: #fff;
+}
+
+.tagline {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .locations {
