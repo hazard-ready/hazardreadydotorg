@@ -16,9 +16,9 @@ h1 {
 }
 
 h2 {
-  font-size: 1.6875rem;
-  line-height: 1.75rem;
-  font-weight: bold;
+    color: #fff;
+    font-size: 1.6875rem;
+    line-height: 1.75rem;
 }
 
 h3 {
@@ -37,7 +37,7 @@ h5 {
 
 .caps {
   text-transform: uppercase;
-  font-weight: bold;
+  letter-spacing: 3px;
 }
 
 .top-header {
@@ -46,17 +46,17 @@ h5 {
 
 .title-header {
   padding: 5px;
-  background-color: #c2c2c2;
+  background-color: #666;
   text-align: center;
 }
 
 .information {
   padding: 1rem;
-  background-color: #666;
-  color: #fff;
+  background-color: #c2c2c2;
 }
 
 .tagline {
+  color: #333;
   max-width: 1000px;
   margin: 0 auto;
 }
