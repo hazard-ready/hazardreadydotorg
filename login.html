@@ -43,17 +43,24 @@
         Once you complete the survey you will be entered to win a $50 Amazon
         gift card.
       </p>
-      <div class="survey-code-form" role="form" aria-label="location-search">
+      <form
+        class="survey-code-form"
+        role="form"
+        aria-label="survey-code-submit"
+      >
         <label class="sr-only" for="code">Survey Code</label>
         <input
           class="survey-code-text"
           name="code"
           type="text"
           placeholder="Enter your 4-digit code"
+          required
+          pattern=".{4}"
+          title="a 4 digit code"
         />
         <button class="code-submit" type="submit">Enter site</button>
         <div class="error-message"></div>
-      </div>
+      </form>
       <p class="content__text fine-print">
         *Your code is the four-digit number on the package we sent you in the
         mail.
@@ -66,5 +73,6 @@
         *We will also use the code to enter you in the gift card drawing!
       </p>
     </div>
+    <script type="text/javascript" src="login.js"></script>
   </body>
 </html>
