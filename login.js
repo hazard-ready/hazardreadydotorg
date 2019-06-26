@@ -2,7 +2,8 @@
 
 document.addEventListener("DOMContentLoaded", event => {
   const codeForm = document.querySelector(".survey-code-form");
-  codeForm.addEventListener("submit", () => {
+  codeForm.addEventListener("submit", event => {
+    event.preventDefault();
     const data = new FormData(codeForm);
     const httpRequest = new XMLHttpRequest();
     httpRequest.onreadystatechange = () => {
@@ -17,6 +18,7 @@ document.addEventListener("DOMContentLoaded", event => {
       }
     };
     httpRequest.open("POST", "/pdx/survey/");
-    httpRequest.send(data);
+    const body = JSON.stringify({code: data.get('code')});
+    httpRequest.send(body);
   });
 });
