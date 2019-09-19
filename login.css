@@ -132,7 +132,7 @@ h5 {
   border: 1px solid #0037a7;
 }
 
-.error-message {
+.error-message, .alert {
   color: #f03b20;
 }
 
