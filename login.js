@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", event => {
       }
     };
     httpRequest.open("POST", "/pdx/survey/");
+    httpRequest.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     const body = JSON.stringify({code: data.get('code')});
     httpRequest.send(body);
   });
