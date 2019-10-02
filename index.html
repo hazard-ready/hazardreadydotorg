@@ -7,14 +7,15 @@
   <link rel="shortcut icon" href="favicon.ico"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link type="text/css" rel="stylesheet" href="normalize.css">
+  <link type="text/css" rel="stylesheet" href="foundation.min.css">
   <link type="text/css" rel="stylesheet" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Source+Serif+Pro:600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-  <div class="top-header" role="banner">
+  <div class="row top-header" role="banner">
     <div class="title-header">
       <img class="title-image" src="logo.png" alt="Hazard Ready">
-      <h1>Disaster preparedness tools</h1>
+      <h2 class="caps">Disaster preparedness tools</h2>
     </div>
     <div class="information">
       <div class="tagline">
@@ -22,38 +23,32 @@
       </div>
     </div>
   </div>
-  <div class="content-container" role="main">
-    <h2>Current Locations</h2>
-    <p>Hazard Ready currently has websites that cover the following areas in the United States. If you'd like to have a Hazard Ready site for your part of the world, please <a href="mailto:info@hazardready.org">contact us</a>. We'd love to work with you!</p>
-    <div class="locations">
-      <div class="location">
-        <h3><a href="https://hazardready.org/missoula" target="_blank">Missoula County, MT</a></h3>
-        <div class="site-thumb"><a href="https://hazardready.org/missoula" target="_blank"><img alt="screenshot of this site" src="missoula-ready.png"></a></div>
-        <p>Explore the potential for wildfire, flooding, winter and summer storms, earthquakes and landslides in Missoula County.</p>
-      </div>
-      <div class="location">
-        <h3><a href="https://hazardready.org/seattle" target="_blank">King County, WA</a></h3>
-        <div class="site-thumb"><a href="https://hazardready.org/seattle" target="_blank"><img alt="screenshot of this site" src="seattle-ready.png"></a></div>
-        <p>Find out about earthquakes, floods, landslides, volcano eruptions, summer and winter storms, and wildfires in King County. This site is available in English, Spanish, Simplified Chinese, Somali, Vietnamese, and Russian.</p>
-      </div>
-      <div class="location">
-        <h3><a href="https://hazardready.org/pdx" target="_blank">Portland, OR Metro Area</a></h3>
-        <div class="site-thumb"><a href="https://hazardready.org/pdx" target="_blank"><img alt="screenshot of this site" src="pdx-ready.jpg"></a></div>
-        <p>Get information about earthquakes, floods, landslides, volcano eruptions, summer and winter storms, and wildfires in the Portland Metro Region, including Clackamas, Clark, Columbia, Multnomah, and Washington Counties. This site is available in English and Spanish, and features a new preparedness checklist as well as an updated design.</p>
-      </div>
+  <div class="locations row" role="main">
+    <h2 class="caps">Current Locations</h2>
+    <div class="small-12 medium-6 columns">
+      <h3><a href="https://hazardready.org/missoula" target="_blank">Missoula County, MT</a></h3>
+      <div class="site-thumb"><a href="https://hazardready.org/missoula" target="_blank"><img alt="screenshot of this site" src="missoula-ready.png"></a></div>
+      <p>Explore the potential for wildfire, flooding, winter and summer storms, earthquakes and landslides in Missoula County.</p>
+    </div>
+    <div class="small-12 medium-6 columns">
+      <h3><a href="https://hazardready.org/seattle" target="_blank">King County, WA</a></h3>
+      <div class="site-thumb"><a href="https://hazardready.org/seattle" target="_blank"><img alt="screenshot of this site" src="seattle-ready.png"></a></div>
+      <p>Find out about earthquakes, floods, landslides, volcano eruptions, summer and winter storms, and wildfires in King County. This site is available in English, Spanish, Simplified Chinese, Somali, Vietnamese, and Russian.</p>
     </div>
   </div>
-  <div class="geek-box" role="complementary">
-    <div class="geek-box-item">
-      <h3>How do these sites work?</h3>
-      <p>Hazard Ready sites are designed to help educate and prepare people for disasters that occur in their area. Disasters don't strike locations equally so we found it important to give location
-      specific information in order to properly prepare. Each site organizes current information and packages it in a way that makes it accessible for any area resident.</p>
-      <p>Hazard Ready sites use the most up-to-date hazard risk data available for their locale. The user of this site is responsible for verifying any particular information with the original data sources. Although these data represent the best current assessment of hazards, they are not predictive of future events. The descriptions of risk and how to prepare for those risks are based on best information from the American Red Cross and the Federal Emergency Management Agency.
-      <p>Have questions? <a href="mailto:info@hazardready.org">Email the creators</a> for more information.</p>
-    </div>
-    <div class="geek-box-item">
-      <h3>Who made them?</h3>
-      <p>Hazard Ready sites are based on <a href="http://www.opb.org/news/widget/aftershock-find-your-cascadia-earthquake-story/" target="_blank">Aftershock</a>, an earthquake preparedness application for Oregon residents. Carson MacPherson-Krutsky and <a href="https://hs.umt.edu/geosciences/faculty/bendick/" target="_blank">Dr. Rebecca Bendick</a>, a graduate student and her advisor at the Unversity of Montana, had the idea to expand it for other locales and types of disasters. <a href="https://github.com/nein09" target="_blank">Melinda Minch</a> and <a href="https://github.com/eldang" target="_blank">Eldan Goldenberg</a> adapted it for that purpose. Source for a general-purpose version of these sites is available on <a href="https://github.com/missoula-ready/disaster-preparedness" target="_blank">Github</a>.</p>
+  <div class="geek-box vert-pad-medium" role="complementary">
+    <div class="row">
+      <div class="small-12 medium-6 columns">
+        <h3 class="caps">How do these sites work?</h3>
+        <p>Hazard Ready sites are designed to help educate and prepare people for disasters that occur in their area. Disasters don't strike locations equally so we found it important to give location
+        specific information in order to properly prepare. Each site organizes current information and packages it in a way that makes it accessible for any area resident.</p>
+        <p>Hazard Ready sites use the most up-to-date hazard risk data available for their locale. The user of this site is responsible for verifying any particular information with the original data sources. Although these data represent the best current assessment of hazards, they are not predictive of future events. The descriptions of risk and how to prepare for those risks are based on best information from the American Red Cross and the Federal Emergency Management Agency.
+        <p>Have questions? <a href="mailto:info@hazardready.org">Email the creators</a> for more information.</p>
+      </div>
+      <div class="small-12 medium-6 columns">
+        <h3 class="caps">Who made them?</h3>
+        <p>Hazard Ready sites are based on <a href="http://www.opb.org/news/widget/aftershock-find-your-cascadia-earthquake-story/" target="_blank">Aftershock</a>, an earthquake preparedness application for Oregon residents. Carson MacPherson-Krutsky and <a href="https://hs.umt.edu/geosciences/faculty/bendick/" target="_blank">Dr. Rebecca Bendick</a>, a graduate student and her advisor at the Unversity of Montana, had the idea to expand it for other locales and types of disasters. <a href="https://github.com/nein09" target="_blank">Melinda Minch</a> and <a href="https://github.com/eldang" target="_blank">Eldan Goldenberg</a> adapted it for that purpose. Source for a general-purpose version of these sites is available on <a href="https://github.com/missoula-ready/disaster-preparedness" target="_blank">Github</a>.</p>
+      </div>
     </div>
   </div>
 </body>
