@@ -19,8 +19,12 @@ img {
 }
 
 a {
-  color: #00a4b2;
+  color: #106edf;
   text-decoration: none;
+}
+
+a:hover, a:focus, a:visited {
+  color: #00a4b2;
 }
 
 h1 {
@@ -120,8 +124,8 @@ h4 {
 .location {
   flex: 0 1 400px;
   margin: 10px 0;
-  padding: 10px 0;
-  background-color: #fff;
+  padding: 20px 0;
+  background-color: #eee;
 }
 
 .geek-box {
@@ -154,7 +158,7 @@ h4 {
 
   .location, .geek-box-item {
     margin: 0 10px;
-    padding: 0 10px;
+    padding: 0 20px;
   }
 
   .content-container {
